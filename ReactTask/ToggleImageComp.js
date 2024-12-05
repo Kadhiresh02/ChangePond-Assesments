@@ -23,7 +23,7 @@ class ToggleImageComp extends Component {
         return (
             <div>
                 <h2>Toggle Image Component</h2>
-                <img src={checkAnimal ? Lion : Horse} alt={checkAnimal ? 'Mustang' : 'Ferrari'} height='200px' width='300px' />
+                <img src={checkAnimal ? Lion : Horse} alt={checkAnimal ? 'Lion' : 'Horse'} height='200px' width='300px' />
                 <br />
                 <button onClick={this.toggleImage} className="btn btn-primary" style={{ marginTop: '10px' }}>
                     Toggle Image
